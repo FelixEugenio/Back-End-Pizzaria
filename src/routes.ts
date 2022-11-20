@@ -46,7 +46,4 @@ router.get('/order/details',isAuthtenticaded, new DetailsOrderController().handl
 router.put('/order/finish',isAuthtenticaded, new FinishOrderController().handle);
 
 
-
-
-
 export {router};
